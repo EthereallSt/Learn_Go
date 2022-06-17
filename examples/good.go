@@ -6,7 +6,7 @@ package main
 
 import "fmt"
 
-func main() {
+func good() {
 	var a, sum1, sum2 int
 	fmt.Scan(&a)
 
