@@ -1,3 +1,13 @@
+/*
+// использование \n позволяет сделать перенос строки
+var a1 string = "123"
+var a2 string = "1234"
+fmt.Printf("%q \n%s", a1, a2)
+// вывод:
+// "123"
+// 1234
+*/
+
 package main
 
 import "fmt"
