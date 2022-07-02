@@ -1,4 +1,4 @@
-package main
+package main		// Меняет значения адреса переменных местами 
 
 import "fmt"
 
