@@ -3,13 +3,14 @@ package main
 import "fmt"
 
 var s string
+var c int
 
 func main() {
 	fmt.Scan(&s)
-	rs := []rune(s)
+	rs := []byte(s)
 
-	for i := range rs {
-		if rs[i]%2 == 0 {
+	for c, i := range rs {
+		if c%2 == 0 {
 			rs[i] = '*'
 		}
 	}
